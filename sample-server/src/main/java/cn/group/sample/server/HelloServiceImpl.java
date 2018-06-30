@@ -3,7 +3,12 @@ package cn.group.sample.server;
 import cn.group.rpc.server.RpcService;
 import cn.group.sample.client.HelloService;
 import cn.group.sample.client.Person;
-
+/**
+ * 
+ * @author shunj-g
+ * @version 1.0.0
+ * @created 2018年7月1日
+ */
 @RpcService(HelloService.class)
 public class HelloServiceImpl implements HelloService {
 
